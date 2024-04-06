@@ -1,4 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
+import SliderComponent from "../../Component/SliderComponent/SliderComponent";
 const Home = () => {
     return (
         <section className="ml-36">
@@ -8,7 +9,7 @@ const Home = () => {
                 <button className="flex items-center gap-x-2 bg-btnBg font-medium text-base text-black py-3 px-7 rounded-lg">Booking<FaArrowRight/></button>
             </div>
             <div>
-                
+                <SliderComponent></SliderComponent>
             </div>
         </section>
     );

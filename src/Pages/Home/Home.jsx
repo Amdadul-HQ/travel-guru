@@ -1,9 +1,14 @@
+import { FaArrowRight } from "react-icons/fa6";
 const Home = () => {
     return (
-        <section>
+        <section className="ml-36">
             <div>
-                <h1>Cox's bazar</h1>
-                <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                <h1 className="text-8xl font-bold text-white">COX'S BAZAR</h1>
+                <p className="text-base font-normal text-white max-w-[450px]">Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
+                <button className="flex items-center gap-x-2 bg-btnBg font-medium text-base text-black py-3 px-7 rounded-lg">Booking<FaArrowRight/></button>
+            </div>
+            <div>
+                
             </div>
         </section>
     );
